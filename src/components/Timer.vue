@@ -122,7 +122,7 @@ input.text {
   width: 100%;
   height: 1.5em;
   font-size: 2em;
-  outline-width: 0;
+  outline: none;
   box-sizing: border-box;
   text-align: center;
   border-top-left-radius: var(--corners);
@@ -139,6 +139,7 @@ h1 {
 }
 .stopButton,
 .deleteButton {
+  outline: none;
   width: 25%;
 }
 .deleteButton {
@@ -148,6 +149,7 @@ h1 {
   width: 100%;
   height: 1.5em;
   font-size: 2.5em;
+  outline: none;
 }
 .radio-group {
   display: inline-block;
